@@ -55,7 +55,7 @@ public class TestServlet extends HttpServlet{
 		
 		// forward 방식으로 페이지 이동
 		// <jsp:forward> java페이지이기 때문에 사용불가 (JSP 페이지에서만 사용 가능)
-		RequestDispatcher dis = req.getRequestDispatcher("/jstl/set2.jsp");
+		RequestDispatcher dis = req.getRequestDispatcher("/jstl/core/set2.jsp");
 		
 		dis.forward(req, resp);
 	}
